@@ -2,9 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Задание 5</title>
+    <title>Лабораторная работа №5</title>
 </head>
 <body>
-<href a = index.html>Назад</href>
+<h3 align="center">Лабораторная работа №5</h3><br>
+<form action = "http://intranet/local" method = "POST">
+    <p>Имя пользователя:</p>
+    <input name="nm" type="text" value="Введите имя пользователя" size="30">
+    <p>Пароль</p>
+    <input name="psw" type="password" size="30">
+    <p>Пол</p>
+    <input name="sex" type="radio" value="m"> Муж.
+    <input name="sex" type="radio" value="f"> Жен.
+    <p>Город проживания</p>
+    <select name="city">
+        <option value="nsk" selected>Новосибирск</option>
+        <option value="uu">Улан-Удэ</option>
+        <option value="irk">Иркутск</option>
+        <option value="msk">Москва</option>
+        <option value="spb">Санкт-Петербург</option>
+    </select> <br><br>
+    <input name="ed" type="checkbox"> Есть ли у Вас высшее образование?<br>
+    <p>Ваша биография:</p>
+    <textarea name="bio" rows="5" cols="40"></textarea> <br><br>
+    <input name="submit" type="submit" value="Отправить" OnClick="alert('Отправлено!')">
+    <input name="clear" type="reset" value="Очистить">
+</form>
+<br><br><a href= "index.html">Назад</a>
 </body>
 </html>

@@ -1,0 +1,53 @@
+body {
+    background-color: lightgray;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5em;
+    padding-right: 2em;
+}
+
+a:link {color: brown;}
+a:visited {color: green;}
+a {
+    font-style: normal;
+    font-family: Arial;
+}
+
+#sub {
+    font-family: Arial;
+    font-weight: bolder;
+    margin-left: 3px;
+    font-size: 30pt;
+    color: darkgray;
+}
+#shadow {
+    font-family: Arial;
+    font-size: 30pt;
+    font-weight: bolder;
+    margin-top: -37pt;
+    color: darkblue;
+}
+
+#p1 {
+    border-left: solid;
+    border-color: red;
+    background-color: white;
+}
+
+#p2 {
+    border-right: double;
+    border-color: blue;
+    background-color: white;
+}
+
+#p3 {
+    background-color: white;
+}
+
+#titleGreen {
+    background-color: lime;
+    border-top: solid;
+    border-color: green;
+    margin-top: 10pt;
+    color: green;
+}
