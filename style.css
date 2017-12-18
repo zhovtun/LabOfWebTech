@@ -29,25 +29,32 @@ a {
 }
 
 #p1 {
+    padding-left: 20pt;
+    padding-right: 20pt;
     border-left: solid;
     border-color: red;
     background-color: white;
 }
 
-#p2 {
+.p2 {
+    padding-left: 20pt;
+    padding-right: 20pt;
     border-right: double;
     border-color: blue;
     background-color: white;
 }
 
 #p3 {
+    padding-left: 20pt;
+    padding-right: 20pt;
     background-color: white;
 }
 
 #titleGreen {
-    background-color: lime;
-    border-top: solid;
-    border-color: green;
-    margin-top: 10pt;
-    color: green;
+    color: yellow;
+}
+
+td {
+    padding-top: 8pt;
+    padding-bottom: 8pt;
 }
